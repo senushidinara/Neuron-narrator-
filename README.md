@@ -82,8 +82,7 @@ NeuronAttraror is a **self-aware reasoning system** that transforms overwhelming
 > **Tagline:** "Predict, explain, and optimize cognitive performance in real life — interactively, adaptively, and safely."
 
 ---
-
-'''
+```
 ┌───────────────────────────────────────────────────────────────┐
 │                                                               │
 │  🟢 Multi-Source Inputs                                        │
@@ -105,9 +104,9 @@ NeuronAttraror is a **self-aware reasoning system** that transforms overwhelming
 │  │             │    │ Dashboard   │    │ Feedback    │        │
 │  └─────────────┘    └─────────────┘    └─────────────┘        │
 │                                                               │
-│ # 🌟 NeuronAttaror — Living Cognitive AI Ecosystem 🧠⚡
+│ # 🌟 NeuronAttaror — Living Cognitive AI Ecosystem 🧠⚡```
 
-```
+
 
 > **Tagline:** "Predict, explain, and optimize cognitive performance — interactively, adaptively, and safely."
 
