@@ -22,7 +22,7 @@
 
 </details>
 
-
+```text
 NeuronAttaror/
 ├── <README.md>               # Project overview, setup instructions, demo link
 ├──                  # Open source license (e.g., MIT)
@@ -51,8 +51,8 @@ NeuronAttaror/
 ├── <fivetran_config.json>
 ├── <elastic_config.json>
 └── <vertexai_config.json>
+```
 
-'''
 
 Key Directories and Descriptions
 | Directory | Description |
