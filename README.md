@@ -30,6 +30,22 @@
 - [tsconfig.app.json](https://github.com/senushidinara/Neuron-narrator-/blob/main/tsconfig.app.json)
 - [tsconfig.json](https://github.com/senushidinara/Neuron-narrator-/blob/main/tsconfig.json)
 - [tsconfig.node.json](https://github.com/senushidinara/Neuron-narrator-/blob/main/tsconfig.node.json)
+- <details>
+<summary>🏗️ System Architecture & Visual Design (Click to Expand)</summary>
+
+### 🌐 NeuronAttaror — Architecture Overview
+This visualization illustrates the interconnected ecosystem where **Fivetran**, **Elastic**, and **Google Cloud Vertex AI** function as semi-autonomous agents influencing each other — forming a self-evolving feedback network.  
+
+![NeuronAttaror Architecture](https://github.com/senushidinara/Neuron-narrator-/blob/main/IMG_3414.jpeg)
+
+---
+
+### 🧠 Data-Driven Evolution Flow
+Depicts the adaptive intelligence pipeline — how raw data transforms through **Fivetran ingestion**, **Elastic reasoning**, and **Vertex AI augmentation** into emergent autonomous decisions.  
+
+![Adaptive Data Flow](https://github.com/senushidinara/Neuron-narrator-/blob/main/IMG_3428.png)
+
+</details>
 
 </details>
 
