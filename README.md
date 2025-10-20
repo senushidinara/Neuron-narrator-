@@ -33,7 +33,7 @@
  <details>
 
 
-<<details>
+<details>
 <summary>🏗️ NeuronAttaror — Architecture & Visuals (Click to Expand)</summary>
 
 ### 🌐 System Architecture
@@ -69,6 +69,7 @@ Screenshots showing **live dashboard**, monitoring, and feedback systems in acti
 
 
 
+##
 
 ```text
 Neuron-narrator--main/
