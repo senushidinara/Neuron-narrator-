@@ -1,0 +1,3 @@
+record_id,patient_token,age_range,symptoms,note_text,eeg_features,uploaded_at
+rec001,demo_patient_001,8-12,"memory lapses; distractibility","Clinician note: mild attention issues observed, no convulsions.","{\"alpha\":4.3,\"theta\":1.2,\"delta\":0.4}","2025-10-15T10:00:00Z"
+rec002,demo_patient_002,3-6,"brief staring spells","Clinician note: brief staring observed; possible absence-like events.","{\"alpha\":1.0,\"theta\":3.5,\"spike_count\":2}","2025-10-14T09:12:00Z"
