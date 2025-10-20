@@ -107,6 +107,8 @@ NeuronAttraror is a **self-aware reasoning system** that transforms overwhelming
 │                                                               │
 │ # 🌟 NeuronAttaror — Living Cognitive AI Ecosystem 🧠⚡
 
+```
+
 > **Tagline:** "Predict, explain, and optimize cognitive performance — interactively, adaptively, and safely."
 
 ---
