@@ -22,11 +22,10 @@
 
 </details>
 
-''''
+
 # NeuronAttaror Project Structure
 
-:
-NeuronAttaror/
+:NeuronAttaror/
 │
 ├── README.md                  # Project overview, setup instructions, demo link
 ├── LICENSE                    # Open source license (e.g., MIT)
