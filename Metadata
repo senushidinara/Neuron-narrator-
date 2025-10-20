@@ -1,0 +1,5 @@
+{
+  "name": "Nueronattaraor",
+  "description": "An application that uses a patient’s anonymized EEG summary and clinical notes to produce a plain-language explanation for patients/parents, describing what happened, why, and the next steps. Each sentence links to the exact evidence and shows safety/uncertainty flags.",
+  "requestFramePermissions": []
+}
