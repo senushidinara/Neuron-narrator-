@@ -3,17 +3,13 @@
 > **Tagline:** "Predict, explain, and optimize cognitive performance in real life — interactively, adaptively, and safely."
 
 ### =============================
-# NeuronAttraror Hackathon Visual Pipeline
-# ASCII + Emojis + Tables + LaTeX
-# =============================
 
-from IPython.display import display, Markdown, Latex
 
 # =============================
-# 1️⃣ Header
+# # 🚀 NeuronAttraror — Living Cognitive AI Ecosystem
 # =============================
 header_md = """
-# 🚀 NeuronAttraror — Living Cognitive AI Ecosystem
+
 
 **Predict, explain, and optimize cognitive performance — interactively, adaptively, safely.**
 """
@@ -22,7 +18,7 @@ display(Markdown(header_md))
 # =============================
 # 2️⃣ Flow Diagram ASCII + Emojis
 # =============================
-flow_diagram = r"""
+flow_diagram =
 ```text
 🟢 Multi-Source Inputs
   ┌─────────────┐     ┌──────────────┐      ┌──────────────┐
@@ -77,7 +73,7 @@ flow_diagram = r"""
 8. [Usage & Examples](#usage--examples)
 9. [AI-Driven Guidance](#ai-driven-guidance)
 10. [Safety & Feedback](#safety--feedback)
-11. [License & Credits](#license--credits)
+11. [License & Credits](#license--credits)'''
 
 </details>
 
