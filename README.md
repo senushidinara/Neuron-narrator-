@@ -37,7 +37,8 @@
 
 
 ## API Key Reference
-## 🔑 API Key Reference
+<details>
+<summary>🔑 API Key Reference (Click to Expand)</summary>
 
 You can get the API keys in **Fivetran** and **Elastic**. Below are screenshots showing where to find them:
 
@@ -45,6 +46,7 @@ You can get the API keys in **Fivetran** and **Elastic**. Below are screenshots 
 ![Elastic API Key](https://raw.githubusercontent.com/senushidinara/Neuron-narrator-/main/IMG_3436.jpeg)  
 ![Additional Reference](https://raw.githubusercontent.com/senushidinara/Neuron-narrator-/main/IMG_3435.jpeg)
 
+</details>
 <summary>🏗️ NeuronAttaror — Architecture & Visuals (Click to Expand)</summary>
 
 ### 🌐 System Architecture
