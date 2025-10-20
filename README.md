@@ -32,7 +32,7 @@
 - [tsconfig.node.json](https://github.com/senushidinara/Neuron-narrator-/blob/main/tsconfig.node.json)
 </details>
 
-<details>
+
 <summary>🏗️ NeuronAttaror — Architecture & Visuals (Click to Expand)</summary>
 
 ### 🌐 System Architecture
@@ -65,7 +65,7 @@ Screenshots showing **live dashboard**, monitoring, and feedback systems in acti
 ![Dashboard 2](https://github.com/senushidinara/Neuron-narrator-/blob/main/Shared%20Image%205.png)  
 ![Dashboard 3](https://github.com/senushidinara/Neuron-narrator-/blob/main/Shared%20Image.png)
 
-</details>
+
 
 
 ---
