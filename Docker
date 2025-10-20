@@ -1,0 +1,18 @@
+# NeuronAttaror — Demo repo
+
+## What
+A demo system that ingests anonymized EEG summaries and clinician notes, and produces a plain-language explanation with evidence tracing.
+
+## How to run (quick dev)
+1. Load `data/sample_eeg.csv` into BigQuery table `your-project.nueronattaror.eeg_summaries`.
+2. Set environment variables for Elastic, BigQuery, Fivetran, and Vertex/Gemini.
+3. Build & run locally:
+   - `docker build -t neuronattaror:local app/`
+   - `docker run -p 8080:8080 -e ... neuronattaror:local`
+4. Open Streamlit UI (edit `BACKEND_URL`) or run front-end locally and point to backend.
+
+## Demo script
+- Open UI, click Generate Story (use sample token `demo_patient_001`), inspect explanation and evidence.
+
+## License
+MIT
