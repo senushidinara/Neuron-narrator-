@@ -2,7 +2,66 @@
 
 > **Tagline:** "Predict, explain, and optimize cognitive performance in real life — interactively, adaptively, and safely."
 
----
+### =============================
+# NeuronAttraror Hackathon Visual Pipeline
+# ASCII + Emojis + Tables + LaTeX
+# =============================
+
+from IPython.display import display, Markdown, Latex
+
+# =============================
+# 1️⃣ Header
+# =============================
+header_md = """
+# 🚀 NeuronAttraror — Living Cognitive AI Ecosystem
+
+**Predict, explain, and optimize cognitive performance — interactively, adaptively, safely.**
+"""
+display(Markdown(header_md))
+
+# =============================
+# 2️⃣ Flow Diagram ASCII + Emojis
+# =============================
+flow_diagram = r"""
+```text
+🟢 Multi-Source Inputs
+  ┌─────────────┐     ┌──────────────┐      ┌──────────────┐
+  │  EEG Data   │     │ Wearables    │      │ Environment  │
+  │  Sensors    │     │ Metrics      │      │ Sensors      │
+  └─────┬───────┘     └─────┬────────┘      └─────┬────────┘
+        │                   │                   │
+        └──────────┬────────┴───────────┬───────┘
+                   ▼
+🟡 🔗 FIVETRAN ETL
+  ┌─────────────────────────┐
+  │ Automated Pipelines     │
+  │ Data Harmonization      │
+  └──────────┬──────────────┘
+             ▼
+🟠 🌐 ELASTIC GRAPH DB
+  ┌─────────────────────────┐
+  │ Causal Analysis         │
+  │ Pattern Detection       │
+  └──────────┬──────────────┘
+             ▼
+🔵 🤖 GEMINI AI
+  ┌─────────────────────────┐
+  │ Narrative Engine        │
+  │ Scenario Simulation     │
+  └──────────┬──────────────┘
+             ▼
+🟣 🖥️ 7-TAB DASHBOARD
+  ┌──────────────────────────────┐
+  │ 1️⃣ Timeline & Daily Insights │
+  │ 2️⃣ Predictive Simulations    │
+  │ 3️⃣ Energy & Focus Dashboard  │
+  │ 4️⃣ Habit Optimization        │
+  │ 5️⃣ Interactive Story Mode    │
+  │ 6️⃣ Population Benchmarking   │
+  │ 7️⃣ Safety Monitoring         │
+  └──────────────────────────────┘.
+
+'''---
 
 ## Table of Contents
 <details>
