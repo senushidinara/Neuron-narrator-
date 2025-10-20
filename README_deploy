@@ -1,0 +1,19 @@
+# Deploy NeuronAttaror to Cloud Run
+
+## 1. Build the Docker image
+gcloud builds submit --tag gcr.io/YOUR_PROJECT_ID/neuronattaror:latest
+
+## 2. Deploy to Cloud Run
+gcloud run deploy neuronattaror   --image gcr.io/YOUR_PROJECT_ID/neuronattaror:latest   --platform managed   --region us-central1   --allow-unauthenticated   --set-env-vars "GCP_PROJECT=YOUR_PROJECT, BIGQUERY_DATASET=nueronattaror, BIGQUERY_TABLE=eeg_summaries, ELASTIC_URL=https://..., ELASTIC_USER=..., ELASTIC_PASSWORD=..., FIVETRAN_API_KEY=..., FIVETRAN_API_SECRET=..., FIVETRAN_CONNECTOR_ID=..., VERTEX_MODEL_NAME=projects/YOUR_PROJECT/locations/us-central1/models/text-bison@001"
+
+## 3. Set additional secrets (recommended) via Secret Manager or Cloud Run secrets
+
+## 4. Obtain service URL
+gcloud run services describe neuronattaror --platform managed --region us-central1 --format 'value(status.url)'
+
+## 5. Update Streamlit front-end
+Edit `app/streamlit_app.py` env var NEURONATTAROR_BACKEND_URL to the Cloud Run URL or set it as Cloud Run env var in front-end service.
+
+## Notes
+- Ensure Cloud Run service account has BigQuery and Vertex AI permissions.
+- Use Secret Manager to avoid storing secrets in env vars in production.
