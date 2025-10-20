@@ -6,51 +6,63 @@
 
 ## Table of Contents
 <details>
-<summary>📂 Navigation</summary>
+<summary>📂 Project File Structure (Click to Expand)</summary>
 
-1. [Overview](#overview)
-2. [Architecture](#architecture)
-3. [Data Flow](#data-flow)
-4. [7 Interactive Tabs](#7-interactive-tabs)
-5. [Fivetran Connector SDK Integration](#fivetran-connector-sdk-integration)
-6. [Elastic Integration](#elastic-integration)
-7. [How to Run](#how-to-run)
-8. [Usage & Examples](#usage--examples)
-9. [AI-Driven Guidance](#ai-driven-guidance)
-10. [Safety & Feedback](#safety--feedback)
-11. [License & Credits](#license--credits)
+- [Neuron-narrator--main/](https://github.com/senushidinara/Neuron-narrator-/tree/main)
+- [Docker](https://github.com/senushidinara/Neuron-narrator-/blob/main/Docker)
+- [Gemini_api_key.py](https://github.com/senushidinara/Neuron-narrator-/blob/main/Gemini_api_key.py)
+- [LICENSE](https://github.com/senushidinara/Neuron-narrator-/blob/main/LICENSE)
+- [Metadata](https://github.com/senushidinara/Neuron-narrator-/blob/main/Metadata)
+- [README.md](https://github.com/senushidinara/Neuron-narrator-/blob/main/README.md)
+- [README_deploy](https://github.com/senushidinara/Neuron-narrator-/blob/main/README_deploy)
+- [Untitled15.ipynb](https://github.com/senushidinara/Neuron-narrator-/blob/main/Untitled15.ipynb)
+- [Untitled17.ipynb](https://github.com/senushidinara/Neuron-narrator-/blob/main/Untitled17.ipynb)
+- [components.json](https://github.com/senushidinara/Neuron-narrator-/blob/main/components.json)
+- [eslint.config.js](https://github.com/senushidinara/Neuron-narrator-/blob/main/eslint.config.js)
+- [index.html](https://github.com/senushidinara/Neuron-narrator-/blob/main/index.html)
+- [package](https://github.com/senushidinara/Neuron-narrator-/blob/main/package)
+- [package-lock.json](https://github.com/senushidinara/Neuron-narrator-/blob/main/package-lock.json)
+- [pipeline.py](https://github.com/senushidinara/Neuron-narrator-/blob/main/pipeline.py)
+- [requirements.txt](https://github.com/senushidinara/Neuron-narrator-/blob/main/requirements.txt)
+- [robots.txt](https://github.com/senushidinara/Neuron-narrator-/blob/main/robots.txt)
+- [sample_eeg.csv](https://github.com/senushidinara/Neuron-narrator-/blob/main/sample_eeg.csv)
+- [sample_fivetran_connector.json](https://github.com/senushidinara/Neuron-narrator-/blob/main/sample_fivetran_connector.json)
+- [tsconfig.app.json](https://github.com/senushidinara/Neuron-narrator-/blob/main/tsconfig.app.json)
+- [tsconfig.json](https://github.com/senushidinara/Neuron-narrator-/blob/main/tsconfig.json)
+- [tsconfig.node.json](https://github.com/senushidinara/Neuron-narrator-/blob/main/tsconfig.node.json)
 
 </details>
-
 ```text
-NeuronAttaror/
-├── <README.md>               # Project overview, setup instructions, demo link
-├──                  # Open source license (e.g., MIT)
-├── <requirements.txt>        # Python dependencies
-├── <.env.example>            # Template for API keys / secrets
-├── <setup.sh>                # Optional: setup script for environment
-├──                    # Static datasets, CSVs, JSON files for testing
-│   └── <sample_data.csv>
-├──                     # Source code
-│   ├── <init.py>
-│   ├── <fivetran_agent.py>       # Handles Fivetran ETL & environment simulation
-│   ├── <elastic_agent.py>        # Handles Elastic search & reality-narrative engine
-│   ├── <feedback_loop.py>        # Logic for agents interacting / evolving
-│   ├── <gamification.py>         # Optional: user interaction layer
-│   ├── <dashboard.py>            # Streamlit / Flask dashboard code
-│   └── <utils.py>                # Helpers, validation, logging, etc.
-├──               # Jupyter or Colab notebooks for experimentation
-│   └── <demo_pipeline.ipynb>
-├──                   # Unit tests for each module
-│   ├── <test_fivetran_agent.py>
-│   ├── <test_elastic_agent.py>
-│   └── <test_feedback_loop.py>
-├──                   # Demo videos, screenshots, or GIFs
-│   └── <demo_video.mp4>
-└──                  # Configs for cloud services, logging, API endpoints
-├── <fivetran_config.json>
-├── <elastic_config.json>
-└── <vertexai_config.json>
+Neuron-narrator--main/
+│
+├── Docker                          # (Optional) Add Dockerfile here for containerized deployment
+├── Gemini_api_key.py               # Handles connection + authentication to Google Gemini / Vertex AI
+├── LICENSE                         # Open-source license (MIT recommended)
+├── Metadata                        # Optional metadata or project manifest (rename to metadata.json for clarity)
+│
+├── README.md                       # ✨ Main documentation (overview, setup, demo links)
+├── README_deploy                   # Deployment-specific guide (could merge into README.md)
+│
+├── Untitled15.ipynb                # Jupyter demo notebook #1 (keep as pipeline showcase)
+├── Untitled17.ipynb                # Jupyter demo notebook #2 (visual demo or agent behavior test)
+│
+├── components.json                 # UI / app component configuration (for front-end rendering)
+├── eslint.config.js                # Linting rules for TypeScript/JavaScript frontend
+├── index.html                      # Frontend landing page (NeuroPlay dashboard UI)
+├── package                         # (Rename to package.json → main Node config for UI dependencies)
+├── package-lock.json               # Node dependency lock file
+│
+├── pipeline.py                     # 🧩 Core backend pipeline: connects Fivetran + Elastic agents
+│
+├── requirements.txt                # Python backend dependencies
+├── robots.txt                      # Standard web crawler policy file
+│
+├── sample_eeg.csv                  # Example EEG dataset (input for demonstration)
+├── sample_fivetran_connector.json  # Fivetran connector definition (custom data source config)
+│
+├── tsconfig.app.json               # TypeScript app configuration
+├── tsconfig.json                   # General TS config
+└── tsconfig.node.json              # TS config for Node runtime
 ```
 
 
