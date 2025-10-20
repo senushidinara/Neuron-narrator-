@@ -22,7 +22,41 @@
 
 </details>
 
----
+---NeuronAttaror/
+│
+├── README.md                  # Project overview, setup instructions, demo link
+├── LICENSE                    # Open source license (e.g., MIT)
+├── requirements.txt           # Python dependencies
+├── .env.example               # Template for API keys / secrets
+├── setup.sh                   # Optional: setup script for environment
+│
+├── data/                      # Static datasets, CSVs, JSON files for testing
+│   └── sample_data.csv
+│
+├── src/                       # Source code
+│   ├── __init__.py
+│   ├── fivetran_agent.py      # Handles Fivetran ETL & environment simulation
+│   ├── elastic_agent.py       # Handles Elastic search & reality-narrative engine
+│   ├── feedback_loop.py       # Logic for agents interacting / evolving
+│   ├── gamification.py        # Optional: user interaction layer
+│   ├── dashboard.py           # Streamlit / Flask dashboard code
+│   └── utils.py               # Helpers, validation, logging, etc.
+│
+├── notebooks/                 # Jupyter or Colab notebooks for experimentation
+│   └── demo_pipeline.ipynb
+│
+├── tests/                     # Unit tests for each module
+│   ├── test_fivetran_agent.py
+│   ├── test_elastic_agent.py
+│   └── test_feedback_loop.py
+│
+├── demos/                     # Demo videos, screenshots, or GIFs
+│   └── demo_video.mp4
+│
+└── config/                    # Configs for cloud services, logging, API endpoints
+    ├── fivetran_config.json
+    ├── elastic_config.json
+    └── vertexai_config.json
 
 ## Overview
 NeuronAttraror is a **self-aware reasoning system** that transforms overwhelming daily-life inputs (EEG, wearables, environment, clinical notes) into **actionable, plain-language cognitive guidance**.  
