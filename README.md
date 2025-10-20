@@ -72,8 +72,8 @@ NeuronAttraror is a **self-aware reasoning system** that transforms overwhelming
                | Interactive Tabs  |
                | 7 Dynamic Tabs    |
                +-------------------+
+```
 
-```text
          
 
 
@@ -83,7 +83,7 @@ NeuronAttraror is a **self-aware reasoning system** that transforms overwhelming
 
 ---
 
-```markdown
+'''
 ┌───────────────────────────────────────────────────────────────┐
 │                                                               │
 │  🟢 Multi-Source Inputs                                        │
