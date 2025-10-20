@@ -1,0 +1,8 @@
+flask==2.3.2
+gunicorn==20.1.0
+requests==2.31.0
+google-cloud-bigquery==3.11.1
+google-cloud-aiplatform==1.29.0
+elasticsearch==8.7.0
+pandas==2.2.2
+streamlit==1.26.0
