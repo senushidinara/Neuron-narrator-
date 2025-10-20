@@ -32,6 +32,7 @@
 - [tsconfig.node.json](https://github.com/senushidinara/Neuron-narrator-/blob/main/tsconfig.node.json)
 
 </details>
+
 ```text
 Neuron-narrator--main/
 │
