@@ -23,7 +23,8 @@
 </details>
 
 -NeuronAttaror/ Project Structure
-This is the file structure for the NeuronAttaror project, presented in Markdown for clarity.
+'''
+
 NeuronAttaror/
 │
 ├── README.md                  # Project overview, setup instructions, demo link
@@ -59,6 +60,9 @@ NeuronAttaror/
     ├── fivetran_config.json
     ├── elastic_config.json
     └── vertexai_config.json
+
+
+    '''
 
 Key Directories and Descriptions
 | Directory | Description |
