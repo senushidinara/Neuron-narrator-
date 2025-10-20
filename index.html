@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF--8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Nueronattaraor</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+      :root {
+        --brand-sky-lightest: #f0f9ff;
+        --brand-sky-lighter: #e0f2fe;
+        --brand-sky-light: #bae6fd;
+        --brand-sky-base: #38bdf8;
+        --brand-sky-dark: #0ea5e9;
+        --brand-sky-darker: #0284c7;
+
+        --brand-slate-lightest: #f8fafc;
+        --brand-slate-lighter: #f1f5f9;
+        --brand-slate-light: #e2e8f0;
+        --brand-slate-base: #64748b;
+        --brand-slate-dark: #334155;
+        --brand-slate-darker: #1e293b;
+      }
+      
+      body {
+        background-image: url('https://images.unsplash.com/photo-1554189097-90d8360ae8df?q=80&w=2940&auto=format&fit=crop');
+        background-size: cover;
+        background-attachment: fixed;
+      }
+
+      /* Custom scrollbar for better aesthetics */
+      ::-webkit-scrollbar {
+        width: 8px;
+        height: 8px;
+      }
+      ::-webkit-scrollbar-track {
+        background: rgba(241, 245, 249, 0.5); /* slate-100/50 */
+      }
+      ::-webkit-scrollbar-thumb {
+        background: #94a3b8;
+        border-radius: 10px;
+      }
+      ::-webkit-scrollbar-thumb:hover {
+        background: #64748b;
+      }
+      .animate-fade-in {
+        animation: fadeIn 0.5s ease-in-out;
+      }
+      @keyframes fadeIn {
+        from { opacity: 0; transform: translateY(10px); }
+        to { opacity: 1; transform: translateY(0); }
+      }
+      
+      .glassmorphism {
+        background: rgba(248, 250, 252, 0.85); /* slate-50 / 85% opacity for better contrast */
+        backdrop-filter: blur(12px);
+        -webkit-backdrop-filter: blur(12px);
+        border: 1px solid rgba(255, 255, 255, 0.4);
+      }
+    </style>
+  <script type="importmap">
+{
+  "imports": {
+    "react-dom/": "https://aistudiocdn.com/react-dom@^19.2.0/",
+    "react": "https://aistudiocdn.com/react@^19.2.0",
+    "react/": "https://aistudiocdn.com/react@^19.2.0/",
+    "@google/genai": "https://aistudiocdn.com/@google/genai@^1.25.0",
+    "chart.js": "https://aistudiocdn.com/chart.js@^4.4.3"
+  }
+}
+</script>
+<link rel="stylesheet" href="/index.css">
+</head>
+  <body class="antialiased">
+    <div id="root"></div>
+    <script type="module" src="/index.tsx"></script>
+  </body>
+</html>
