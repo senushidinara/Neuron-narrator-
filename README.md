@@ -66,7 +66,9 @@ Screenshots showing **live dashboard**, monitoring, and feedback systems in acti
 ![Dashboard 3](https://github.com/senushidinara/Neuron-narrator-/blob/main/Shared%20Image.png)
 
 </details>
-</details>
+
+
+
 
 ```text
 Neuron-narrator--main/
