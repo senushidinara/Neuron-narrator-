@@ -1,0 +1,27 @@
+{
+  "service": "google_cloud_storage",
+  "config": {
+    "bucket_name": "your-gcs-bucket-for-eeg",
+    "file_pattern": "eeg_uploads/*.csv",
+    "destination": {
+      "type": "bigquery",
+      "project_id": "your-project",
+      "dataset": "nueronattaror",
+      "table": "eeg_summaries"
+    },
+    "anonymization_rules": [
+      {"field": "patient_name", "action": "mask"},
+      {"field": "patient_id", "action": "tokenize"}
+    ],
+    "sync_frequency": "manual_or_10_minutes"
+  },
+  "destination_schema": {
+    "record_id": "STRING",
+    "patient_token": "STRING",
+    "age_range": "STRING",
+    "symptoms": "STRING",
+    "note_text": "STRING",
+    "eeg_features": "STRING",
+    "uploaded_at": "TIMESTAMP"
+  }
+}
