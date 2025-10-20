@@ -32,6 +32,21 @@
 - [tsconfig.node.json](https://github.com/senushidinara/Neuron-narrator-/blob/main/tsconfig.node.json)
 </details>
 
+---
+
+
+
+## API Key Reference
+<details>
+<summary>🔑 API Key Reference (Click to Expand)</summary>
+
+You can get the API keys in **Fivetran** and **Elastic**. Below are screenshots showing where to find them:
+
+![Fivetran API Key](https://github.com/senushidinara/Neuron-narrator-/blob/main/IMG_3437.jpeg)  
+![Elastic API Key](https://github.com/senushidinara/Neuron-narrator-/blob/main/IMG_3436.jpeg)  
+![Additional Reference](https://github.com/senushidinara/Neuron-narrator-/blob/main/IMG_3435.jpeg)
+
+</details>
 
 <summary>🏗️ NeuronAttaror — Architecture & Visuals (Click to Expand)</summary>
 
