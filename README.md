@@ -30,23 +30,42 @@
 - [tsconfig.app.json](https://github.com/senushidinara/Neuron-narrator-/blob/main/tsconfig.app.json)
 - [tsconfig.json](https://github.com/senushidinara/Neuron-narrator-/blob/main/tsconfig.json)
 - [tsconfig.node.json](https://github.com/senushidinara/Neuron-narrator-/blob/main/tsconfig.node.json)
-- <details>
-<summary>🏗️ System Architecture & Visual Design (Click to Expand)</summary>
+ <details>
 
-### 🌐 NeuronAttaror — Architecture Overview
-This visualization illustrates the interconnected ecosystem where **Fivetran**, **Elastic**, and **Google Cloud Vertex AI** function as semi-autonomous agents influencing each other — forming a self-evolving feedback network.  
 
-![NeuronAttaror Architecture](https://github.com/senushidinara/Neuron-narrator-/blob/main/IMG_3414.jpeg)
+<<details>
+<summary>🏗️ NeuronAttaror — Architecture & Visuals (Click to Expand)</summary>
+
+### 🌐 System Architecture
+Illustrates the interconnected ecosystem where **Fivetran**, **Elastic**, and **Vertex AI** function as semi-autonomous agents, forming a self-evolving feedback loop.  
+
+![Architecture Overview](https://github.com/senushidinara/Neuron-narrator-/blob/main/IMG_3414.jpeg)
 
 ---
 
-### 🧠 Data-Driven Evolution Flow
-Depicts the adaptive intelligence pipeline — how raw data transforms through **Fivetran ingestion**, **Elastic reasoning**, and **Vertex AI augmentation** into emergent autonomous decisions.  
+### 🧩 Adaptive Data Flow
+Depicts how raw data transforms through **Fivetran ingestion**, **Elastic reasoning**, and **Vertex AI augmentation** into emergent autonomous decisions.  
 
-![Adaptive Data Flow](https://github.com/senushidinara/Neuron-narrator-/blob/main/IMG_3428.png)
+![Data Flow](https://github.com/senushidinara/Neuron-narrator-/blob/main/IMG_3428.png)
+
+---
+
+### ⚡ Dynamic Pipeline Components
+Visualizes internal components, connectors, and interactions between the autonomous agents and external systems.  
+
+![Pipeline Components 1](https://github.com/senushidinara/Neuron-narrator-/blob/main/Shared%20Image%202.png)  
+![Pipeline Components 2](https://github.com/senushidinara/Neuron-narrator-/blob/main/Shared%20Image%203.png)
+
+---
+
+### 📊 Dashboard & Monitoring
+Screenshots showing **live dashboard**, monitoring, and feedback systems in action.  
+
+![Dashboard 1](https://github.com/senushidinara/Neuron-narrator-/blob/main/Shared%20Image%204.png)  
+![Dashboard 2](https://github.com/senushidinara/Neuron-narrator-/blob/main/Shared%20Image%205.png)  
+![Dashboard 3](https://github.com/senushidinara/Neuron-narrator-/blob/main/Shared%20Image.png)
 
 </details>
-
 </details>
 
 ```text
