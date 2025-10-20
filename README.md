@@ -23,6 +23,10 @@
 </details>
 
 ''''
+# NeuronAttaror Project Structure
+
+This is the directory layout for the NeuronAttaror project:
+
 NeuronAttaror/
 ├── README.md               # Project overview, setup instructions, demo link
 ├── LICENSE                 # Open source license (e.g., MIT)
@@ -51,9 +55,8 @@ NeuronAttaror/
     ├── fivetran_config.json
     ├── elastic_config.json
     └── vertexai_config.json
+
 '''
-
-
 
 Key Directories and Descriptions
 | Directory | Description |
