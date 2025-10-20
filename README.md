@@ -22,8 +22,7 @@
 
 </details>
 
--NeuronAttaror/ Project Structure
-'''
+'''-NeuronAttaror/ Project Structure
 
 NeuronAttaror/
 │
@@ -59,10 +58,9 @@ NeuronAttaror/
 └── config/                    # Configs for cloud services, logging, API endpoints
     ├── fivetran_config.json
     ├── elastic_config.json
-    └── vertexai_config.json
+    └── vertexai_config.json'''
 
 
-    '''
 
 Key Directories and Descriptions
 | Directory | Description |
