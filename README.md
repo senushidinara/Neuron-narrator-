@@ -22,7 +22,9 @@
 
 </details>
 
----NeuronAttaror/
+-NeuronAttaror/ Project Structure
+This is the file structure for the NeuronAttaror project, presented in Markdown for clarity.
+NeuronAttaror/
 │
 ├── README.md                  # Project overview, setup instructions, demo link
 ├── LICENSE                    # Open source license (e.g., MIT)
@@ -57,6 +59,23 @@
     ├── fivetran_config.json
     ├── elastic_config.json
     └── vertexai_config.json
+
+Key Directories and Descriptions
+| Directory | Description |
+|---|---|
+| data/ | Stores static datasets (CSVs, JSONs) used for testing or initial setup. |
+| src/ | Contains the primary source code for the application's logic and agents. |
+| notebooks/ | Area for Jupyter or Colab notebooks used for exploratory data analysis or pipeline experimentation. |
+| tests/ | Holds all unit and integration tests to ensure module reliability. |
+| demos/ | Location for media assets like screenshots, GIFs, or demo videos of the running application. |
+| config/ | Central place for configuration files for external services (Fivetran, Elastic, Vertex AI) and logging. |
+Core Files
+ * README.md: Provides the essential project overview, setup instructions, and a link to the demo.
+ * requirements.txt: Lists all necessary Python package dependencies.
+ * src/fivetran_agent.py: Manages ETL processes via Fivetran and simulates the data environment.
+ * src/elastic_agent.py: Implements Elasticsearch functionality for search and the "reality-narrative engine."
+ * src/feedback_loop.py: Encapsulates the core logic for how the agents interact and evolve.
+
 
 ## Overview
 NeuronAttraror is a **self-aware reasoning system** that transforms overwhelming daily-life inputs (EEG, wearables, environment, clinical notes) into **actionable, plain-language cognitive guidance**.  
