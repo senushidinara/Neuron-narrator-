@@ -1,6 +1,6 @@
-# 🌟 NeuronAttraror — Living Cognitive AI Ecosystem 🧠⚡
+## 🌟 NeuronAttraror — Living Cognitive AI Ecosystem 🧠⚡
 
-> **"Predict, explain, and optimize cognitive performance in real life — interactively, adaptively, and safely.":** 
+> #"Predict, explain, and optimize cognitive performance in real life — interactively, adaptively, and safely."
 
 ---
 
