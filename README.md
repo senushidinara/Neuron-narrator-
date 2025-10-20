@@ -61,7 +61,7 @@ flow_diagram = r"""
   │ 7️⃣ Safety Monitoring         │
   └──────────────────────────────┘.
 
-'''---
+---
 
 ## Table of Contents
 <details>
